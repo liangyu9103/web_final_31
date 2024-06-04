@@ -1,0 +1,39 @@
+@import 'react-image-gallery/styles/css/image-gallery.css';
+.image-gallery-slide .image-gallery-description {
+    background: unset;
+    bottom: 70px;
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+    left: 42%;
+    line-height: 1;
+    padding: 10px 20px;
+    position: absolute;
+    white-space: normal;
+    justify-content: center;
+    align-items: center;
+}
+.intro {
+    font-weight: 600;
+    line-height: 2;
+}
+
+.d-flex {
+    padding-left: 1.5rem;
+    display: flex;
+    margin-top: 2rem;
+    gap: 1.5rem;
+    font-weight: 700;
+}
+
+.d-flex-title:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    text-decoration-color: #080808;
+}
+
+.active {
+    text-decoration: underline;
+    cursor: pointer;
+    text-decoration-color: #080808;
+}
