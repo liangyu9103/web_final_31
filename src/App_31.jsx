@@ -52,7 +52,7 @@ const router = createBrowserRouter([
         element: <Sneakers_31 />,
       },
       {
-        path: 'users',
+        path: 'teammate',
         element: <NewUsers_31 />,
       },
       {

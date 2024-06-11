@@ -13,30 +13,55 @@
 
 ### 重點 1 -- 單人，還是兩人，如何分工
 
-- 我是一個人做 Project
+> 我是一個人做 Project
 
 ### 重點 2 -- Project 簡要介紹
 
 #### => project requirements
 
-- Project 的主題是球星 Kobe Bryant 的歷史，以及他的球鞋們，可以讓喜愛 Kobe Bryant 的球迷們瞭解他的生平，與他代表性的球鞋
+> Project 的主題是球星 Kobe Bryant 的歷史，以及他的球鞋們，可以讓喜愛 Kobe Bryant 的球迷們瞭解他的生平，與他代表性的球鞋
 
 #### => featured category, pages with routes
 
-- 頁面部分包含“Home"、“Sneakers"
+> 頁面部分包含“Home"、“Sneakers"
 
 ### 重點 3 -- Supabase 後台 schemas and data 支援
 
-- 尚未實作
+> 使用 SQL 指令來新增 Table "sneakers_31"以及資料(圖 1)
+> 圖 1
+> ![圖1](./Supabase/Supabase-1.png)
+
+---
+
+> 成功建立 Table "sneakers_31"資料(圖 2)
+> 圖 2
+> ![圖2](./Supabase/Supabase-2.png)
+
+---
+
+> 使用 SQL 指令來新增 Table "type_31"以及資料(圖 3)
+> 圖 3
+> ![圖3](./Supabase/Supabase-3.png)
+
+---
+
+> 成功建立 Table "type_31"資料(圖 2)，預計拿來當作 foreign key 的資料，不過遇到建立 foreign key 有遇到困難，可參考解決問題說明-問題 1
+> 圖 4
+> ![圖4](./Supabase/Supabase-4.png)
 
 ### 重點 4 -- React 前台， code 模組設計
 
-- 頁面“Sneakers“是使用了 react 的套件去製作
+> 前台的基礎架構是利用老師上課範例 Cabin 去做新增以及修改
+> 頁面“Sneakers“是使用了 react 的套件去製作(可參考網路資源來源 1)
 
 ### 重點 5 -- 整體完成度
 
-- 6/4 繳交部分，只完成的前端的設計，資料都是放在本地，尚未製作資料庫，連接 Supabase
-- 預計後續於 Supabase 建立兩個 Table 並設定 foreign key 來顯示資料
+- 6/4 繳交進度：
+
+  > 只完成的前端的設計，資料都是放在本地，尚未製作資料庫，連接 Supabase
+  > 預計後續於 Supabase 建立兩個 Table 並設定 foreign key 來顯示資料
+
+- 6/11 繳交進度：
 
 ---
 
@@ -89,6 +114,11 @@
 ## 解決問題說明
 
 ### => 問題 1
+
+> 無法成功將 Table "sneakers_31"與“type_31"建立 foreign key(圖 1)
+> ![](./解決問題說明/解決問題說明-1.png)
+
+> （尚未解決）
 
 ### => 問題 2
 

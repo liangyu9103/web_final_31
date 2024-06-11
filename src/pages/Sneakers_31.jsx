@@ -1,6 +1,6 @@
 // import CabinTable from '../features/cabins/CabinTable';
 // import Heading from '../ui/Heading';
-// import Row from '../ui/Row';
+
 import { useState } from 'react';
 
 import ImageGallery from 'react-image-gallery';
@@ -19,7 +19,7 @@ const Sneakers_31 = () => {
       original: '/kobe4_2.jpg',
       thumbnail: '/kobe4_2.jpg',
       originalHeight: '550px',
-      description: 'Protro Draft Day ',
+      description: 'Protro Draft Day',
     },
     {
       type: 'kobe4',
