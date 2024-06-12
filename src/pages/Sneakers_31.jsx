@@ -2,6 +2,8 @@
 // import Heading from '../ui/Heading';
 
 import { useState } from 'react';
+import { useQuery } from '@tanstack/react-query';
+import { getSneakers } from '../services/apiSneakers';
 
 import ImageGallery from 'react-image-gallery';
 

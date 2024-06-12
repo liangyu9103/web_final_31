@@ -68,10 +68,6 @@ function MainNav() {
             <HiOutlineHomeModern />
             <span>Sneakers</span>
           </StyledNavLink>
-          <StyledNavLink to="/teammate">
-            <HiOutlineUsers />
-            <span>Users</span>
-          </StyledNavLink>
         </li>
       </NavList>
     </nav>
